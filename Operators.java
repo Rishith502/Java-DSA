@@ -44,7 +44,7 @@ public class Operators {
         //Logical operators
 
         int x = 5;
-        System.out.println(x<6 && x<4);
+        System.out.println(x<6 && x>3);
         System.out.println(x<5 || x>2);
         System.out.println(!(x>6 && x<4));
 
