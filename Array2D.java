@@ -57,17 +57,17 @@ public class Array2D {
 
     int[][] arr = new int[rows][cols];
 
-    int max = 0;
+    // int max = 0;
 
-    for(int i=0;i<rows;i++){
-        for(int j=0;j<cols;j++){
-            arr[i][j]=sc.nextInt();
-            if(arr[i][j] > max){
-                max=arr[i][j];
-            }
-        }
-    }
-    System.out.println("The largest element in an array:"+ max);
+    // for(int i=0;i<rows;i++){
+    //     for(int j=0;j<cols;j++){
+    //         arr[i][j]=sc.nextInt();
+    //         if(arr[i][j] > max){
+    //             max=arr[i][j];
+    //         }
+    //     }
+    // }
+    // System.out.println("The largest element in an array:"+ max);
 
 
     /*PRINT SECOND LARGEST NUMBER IN AN 2D  ARRAY */
@@ -87,9 +87,52 @@ public class Array2D {
 
     /* 1Q)CHECK IF A MATRIX IS SYMMETRIC */
     /*HINT: arr[i][j]         arr[j][i] */
+    // if(rows!=cols){
+    //     System.out.println("Matrix is not Symmetric");
+    //     return;
+    // }
+    System.out.println("Enter elements in matrix:");
+        // for(int i=0;i<rows;i++){
+        //     for(int j=0;j<cols;j++){
+        //         arr[i][j] = sc.nextInt();
+        //     }
+        // }
+        // boolean isSymmetric=true;
 
-    /* 2Q)WRITE A PROGRAM TO TRANSPOSE A 2D MATTRIX */
+        // for(int i=0;i<rows;i++){
+        //     for(int j=i+1;j<cols;j++){
+        //         if(arr[i][j]!=arr[j][i]){
+        //             isSymmetric = false;
+        //             break;
+        //         }
+        //     }
+        // }
+
+        // if(isSymmetric){
+        //     System.out.println("Symmetric matrix");
+        // }
+        // else{
+        //     System.out.println("Not a Symmetric Matrix");
+        // }
+
+
+    /* 2Q)WRITE A PROGRAM TO TRANSPOSE A 2D MATRIX */
     
+        for(int i=0;i<rows;i++){
+            for(int j=0;j<cols;j++){
+                arr[i][j] = sc.nextInt();
+            }
+        }
+
+
+        System.out.println("Transpose Matrix");
+        for(int j=0;j<cols;j++){
+            for(int i=0;i<rows;i++){
+                System.out.print(arr[i][j]+ " ");
+            }
+            System.out.println();
+        }
+
     }
 
 }
