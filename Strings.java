@@ -1,4 +1,3 @@
-import java.util.*;
 public class Strings {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -33,7 +32,6 @@ public class Strings {
 
         /*3Q)WRITE A PROGRM TO COUNT THE NUMBER OF
             VOWELS AND CONSONENTS IN A STRING */
-
 
         
     }

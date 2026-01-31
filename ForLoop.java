@@ -1,9 +1,9 @@
-import java.util.Scanner;
+import java.util.*;
 public class ForLoop {
     public static void main(String[] args) {
-        // for(int i=0;i<=10;i=i+2){
-        //     System.out.println(i);
-        // }
+        //for(int i=0;i<=10;i=i+2){
+        //    System.out.println(i);
+        //}
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
         int n = sc.nextInt();
