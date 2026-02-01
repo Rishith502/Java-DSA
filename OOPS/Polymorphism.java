@@ -46,3 +46,5 @@ It can be applied to variables,methods,and classes.
 class Students{
     public static String schoolName = "ATS";
 }
+
+
